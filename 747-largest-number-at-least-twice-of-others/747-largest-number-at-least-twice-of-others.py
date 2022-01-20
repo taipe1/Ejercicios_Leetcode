@@ -7,3 +7,4 @@ class Solution:
             if nums[i] != maximum and maximum < 2*(nums[i]):
                 return -1
         return maxindex
+    
