@@ -5,7 +5,6 @@ class Solution:
         for i in range(len(candies)):
             if((candies[i] + extraCandies) >= may):
                 arr[i]=True
-
         return arr
         
 
